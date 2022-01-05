@@ -17,13 +17,20 @@
 
        .text-white-70 { 
             color: rgba(255,255,255,0.7);
-            font-size: 70px;
+            font-size: 50px;
       }
- 
+    
       span{
           color:rgb(6, 100, 207);
       }
        
+      .text-white-10{  
+        font-size: 38px;
+        color: rgba(255,255,255,0.7);
+      }
+      .minn{
+        font-size: 38px; 
+      }
    .navbar-brand{
       color:rgb(6, 100, 207); 
       font-size: 1.6rem;
@@ -108,4 +115,19 @@
      font-size: 21px;
      text-align: center;
      margin-top: 20px;
+}
+
+
+@media (max-width :600px){
+    .text-white-70 { 
+        font-size: 33px;
+  }
+
+  
+  .text-white-10{  
+    font-size: 23px;
+  }
+  .minn{
+    font-size: 23px; 
+  }
 }
