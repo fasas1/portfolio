@@ -24,6 +24,9 @@
           color:rgb(6, 100, 207);
       }
        
+      .lead{
+        font-size: 18px;
+      }
       .text-white-10{  
         font-size: 38px;
         color: rgba(255,255,255,0.7);
