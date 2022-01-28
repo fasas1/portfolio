@@ -12,7 +12,9 @@
          background-color: #000;
     }
     .fill-viewport {  
-       min-height: 100vh
+       min-height: 100vh;
+       text-align: center;
+       margin-top: 30px;
        }
 
        .text-white-70 { 
@@ -122,6 +124,12 @@
 
 
 @media (max-width :600px){
+  .fill-viewport {  
+    min-height: 60vh;
+   
+    }
+ 
+
     .text-white-70 { 
         font-size: 33px;
   }
